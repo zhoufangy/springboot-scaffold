@@ -1,1 +1,1 @@
-#springboot-springSecurity脚手架
+#springboot系列脚手架
