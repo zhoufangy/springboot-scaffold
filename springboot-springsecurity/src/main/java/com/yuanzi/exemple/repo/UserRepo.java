@@ -10,4 +10,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(path = "user")
 public interface UserRepo extends JpaRepository<User, Long> {
 
+    User findByUsernameAndPassword(String userName,String passward);
 }

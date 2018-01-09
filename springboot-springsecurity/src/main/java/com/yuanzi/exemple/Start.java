@@ -26,6 +26,5 @@ public class Start implements EmbeddedServletContainerCustomizer {
     }
     @Override
     public void customize(ConfigurableEmbeddedServletContainer configurableEmbeddedServletContainer) {
-        configurableEmbeddedServletContainer.setPort(8011);
     }
 }
